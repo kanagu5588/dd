@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+    background: url("image/219325.jpg");
+    background-size: cover;
+}
+.navlinks{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    list-style: none;
+}
+a{
+    display: block;
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+a:hover{
+    background-color: rgb(230, 4, 140);
+    
+}
+.dropdown{
+    list-style: none;
+    display: none;
+}
+.navlinks li:nth-child(2):hover .dropdown{
+    display: block;
+}
+.menu{
+    
+    list-style: none;
+    display: none;
+    transform: translateX(200px) translateY(-42px);
+    
+    
+}
+.dropdown li:nth-child(5):hover .menu{
+    display: block;
+    
+}
